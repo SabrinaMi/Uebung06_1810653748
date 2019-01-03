@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Aufgabe3
 {
     public static void main(String[] args)
@@ -6,7 +8,12 @@ public class Aufgabe3
         int length = 100;
         array = new int[length];
 
-        for (int i=0; i<length; i++)
-            array [i] = 1+i;
+        for (int i = 0; i < array.length; i++)
+        {
+            array[i] = (int) (Math.random() * 100);
+        }
+
+
     }
+
 }
