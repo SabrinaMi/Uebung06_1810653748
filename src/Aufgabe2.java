@@ -8,7 +8,7 @@ public class Aufgabe2
         //der Nutzer wird nach der größe des Arrays gefragt, deshalb Integer.parseInt wegen dem umwandln
         for (int i = 0; i < array1.length; i++)
         {
-            array1[i] = (int) (Math.random() * 1000);
+            array1[i] = (int) (Math.random() * 1000); //BEFÜLLEN
         }
                     /*mit i=0 wird angegeben ab wann gestartet werden kann,
             i<array.length ist die Aussage/Bedingung wird angegeben das i kleiner als die eingegebene Größe (vom Benutzer eingegebn)sein soll
